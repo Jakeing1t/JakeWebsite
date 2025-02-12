@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    flex-direction: column;  /* Stack the divs vertically */
+}
+
+.typing-container {
+    font-size: 24px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px 0; /* Add space between containers */
+}
+
+#typing-text-1,
+#typing-text-2 {
+    display: inline;
+}
